@@ -52,7 +52,7 @@ h1 {
   z-index: 10;
   width: 282px;
   height: 282px;
-  background-color: var(--cyan);
+  background-color: hsl(178, 100%, 50%, 0.35);
   border-radius: 0.8rem;
   opacity: 0.5;
   position: absolute;
@@ -60,6 +60,14 @@ h1 {
   left: 1.5rem;
   opacity: 0;
   cursor: pointer;
+  background-image: url('./images/icon-view.svg');
+  background-repeat: no-repeat;
+  background-size: 42px;
+  background-position: center;
+}
+
+.main__image-cover:hover {
+  opacity: 1.0;
 }
 
 .main__text h1:hover {
@@ -77,14 +85,6 @@ main img:nth-child(2) {
   cursor: pointer;
 }
 
-.main__icon-view {
-  width: 14%;
-  position: absolute;
-  transform: translate(120px, 120px);
-  z-index: 20;
-  opacity: 0;
-  cursor: pointer;
-}
 
 img {
   width: 100%;
